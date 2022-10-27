@@ -1,38 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Mali:wght@400;500&display=swap');
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.active {
+  text-decoration: underline;
+  font-weight: bolder;
+  color: rgb(245, 241, 246);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.noactive {
+  text-decoration: normal;
+  font-weight: normal;
+  color: rgb(172, 4, 85);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  body {
+  font-family:'Mali', cursive;
+} 
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  margin: 0 10px;
+}
+img {
+  width: 300px;
+  height: 350px;
+}
+nav {
+  background-color: rgb(48, 47, 49);
+}
+.nav{
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-content: center;
+}
+.mapa{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 50px;
+  height: 50px;
+}
+
+.botton{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+select{
+  border-radius: 20px;
+  border-color: black;
+  border-width: 2px;
+}
+h1{
+  color: rgb(72, 5, 5);
+  font-family: 'Mali', cursive;
+}
+.pokecard{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  align-content: center;
+  margin-left: 40%;
+  background-color: black;  
 }
+.pokewall{
+  background-image: url("assets/img/wall.jpg");
+  min-width: 100vh;
+  min-height: 100vh;
+  background-size: cover;
+  padding: 30px;
+}
+ .contain{
+   background-image: url("assets/img/friends.jpg");
+   min-width: 100vh;
+   min-height: 100vh;
+   background-size: cover;
+ }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
