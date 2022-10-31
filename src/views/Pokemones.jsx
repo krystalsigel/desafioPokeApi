@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useState } from "react";
 import context from "../MyContext";
 import { useNavigate } from "react-router-dom";
 import Button from "react-bootstrap/Button";

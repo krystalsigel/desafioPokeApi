@@ -20,7 +20,7 @@ function App() {
  
   const fetchPokemones = async (limit = 20, offset = 0) => {
     try{
-      const res = await fetch(`https://pokeapi.co/api/v2/pokemon?limit=${limit}&offset=${offset}`);
+      const res = await fetch(`${endpoint}?limit=${limit}&offset=${offset}`);
       const {results} = await res.json();
       setPokemones(results)
     }catch(e){

@@ -1,7 +1,6 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Card from "../components/Card";
 import { useParams } from "react-router-dom";
-import context from "../MyContext";
 
 const Pokemon = () => {
   const { name } = useParams();
@@ -18,6 +17,7 @@ const Pokemon = () => {
   };
   useEffect(() => {
     fetchPokemon();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   console.log(pokemon);
   if (pokemon.hasOwnProperty("sprites")) {
