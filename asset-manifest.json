@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/desafioPokeApi/static/css/main.ff115dd4.css",
+    "main.js": "/desafioPokeApi/static/js/main.466e47e1.js",
+    "static/media/three.jpg": "/desafioPokeApi/static/media/three.64b4888263a795e48d0a.jpg",
+    "static/media/wall.jpg": "/desafioPokeApi/static/media/wall.3d901f882209f4a00b34.jpg",
+    "static/media/pikachu.png": "/desafioPokeApi/static/media/pikachu.cb2c05f1d7ea744b3f58.png",
+    "static/media/mapa.png": "/desafioPokeApi/static/media/mapa.1baef9913445049a4599.png",
+    "index.html": "/desafioPokeApi/index.html",
+    "main.ff115dd4.css.map": "/desafioPokeApi/static/css/main.ff115dd4.css.map",
+    "main.466e47e1.js.map": "/desafioPokeApi/static/js/main.466e47e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff115dd4.css",
+    "static/js/main.466e47e1.js"
+  ]
+}
