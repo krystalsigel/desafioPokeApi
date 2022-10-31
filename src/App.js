@@ -34,7 +34,7 @@ function App() {
   return (
     <div className='App'>
       <MyContext.Provider value={{pokemones, fetchPokemones}}>
-      <BrowserRouter>
+      <BrowserRouter basename='desafioPokeApi'>
           <Navigation />
        <Routes>
         <Route path='/' element={<Home/>} index/>
